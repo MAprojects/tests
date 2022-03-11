@@ -1,9 +1,10 @@
-pipeline{
-   agent any
-   stages {
-      stage("build"){
-         steps{
-             echo 'building app..'
-         }
-      }
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World 2'
+            }
+        }
+    }
 }
