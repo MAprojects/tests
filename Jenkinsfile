@@ -11,18 +11,17 @@ pipline{
 
 
       }
-      stages {
+
       stage("testing"){
 
-      steps{
-         echo 'testing app..'
+          steps{
+             echo 'testing app..'
+
+           }
 
       }
 
 
-      }
 
-
-   }
 
 }
